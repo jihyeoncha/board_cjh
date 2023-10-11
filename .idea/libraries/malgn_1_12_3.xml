@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="malgn-1.12.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/webapp/WEB-INF/lib/malgn-1.12.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

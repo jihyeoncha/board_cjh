@@ -1,0 +1,16 @@
+SMAP
+_modify__jsp.java
+JSP
+*S JSP
+*F
++ 1 modify.jsp
+board/modify.jsp
++ 2 init.jsp
+board/../init.jsp
+*L
+1#1:58
+3#2,36:59
+2#1:95
+5#1,25:96
+29#1:121
+*E

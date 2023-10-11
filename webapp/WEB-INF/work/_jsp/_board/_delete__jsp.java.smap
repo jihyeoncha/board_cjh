@@ -1,0 +1,16 @@
+SMAP
+_delete__jsp.java
+JSP
+*S JSP
+*F
++ 1 delete.jsp
+board/delete.jsp
++ 2 init.jsp
+board/../init.jsp
+*L
+1#1:58
+3#2,36:59
+2#1:95
+4#1,12:96
+15#1:108
+*E

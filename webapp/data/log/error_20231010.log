@@ -1,0 +1,5 @@
+[2023-10-10 15:35:27] at /board/update.jsp
+{DB.execute} UPDATE jihyeon SET  WHERE idx = 14 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE idx = 14' at line 1
+{} (You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE idx = 14' at line 1)at /board/update.jsp
+{DB.execute} UPDATE jihyeon SET  WHERE idx = 14 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE idx = 14' at line 1
+{} (You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE idx = 14' at line 1)

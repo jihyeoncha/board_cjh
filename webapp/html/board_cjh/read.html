@@ -1,0 +1,49 @@
+
+<div class="inner">
+    <div class="page_wrap pt35">
+        <h3 class="page_sub_tt">지식공유</h3>
+        <div class="est_insert mt15">
+            <table summary="지식공유 글을 읽을 수 있습니다.">
+                <colgroup>
+                    <col style="width:129px">
+                    <col style="width:*">
+                    <col style="width:129px">
+                    <col style="width:*px">
+                </colgroup>
+                <tbody>
+                    <tr>
+                        <th>제목</th>
+                        <td colspan="3">{{title}}
+                            <!--@if(new_block)--><span><img src="/html/images/icon/bic_new.gif" alt="" /></span><!--/if(new_block)-->
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>내용</th>
+                        <td colspan="3" style="height:150px;" valign="top">
+                            {{content}}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>등록일</th>
+                        <td>{{regi_date_conv}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="tac mt25">
+            <a href="../board_cjh/list.jsp" class="btn_wh btn_tx">목록</a>
+            <!--@if(board_modify_block)-->
+            <button type="button" class="btn_agree btn_tx" onclick="location.href='../board_cjh/modify.jsp?idx={{idx}}';">수정</button>
+            <button type="button" class="btn_agree btn_tx" onclick="BtnConfirmGo('삭제', 'delete.jsp?idx={{idx}}');">삭제</button>
+            <!--/if(board_modify_block)-->
+        </div>
+
+        <!--@if(answer.answer_block)-->
+        <iframe src="answer.jsp?code={{code}}&pid={{id}}" id="ansifrm" name="ansifrm" width="100%" height="0" scrolling="no" frameborder="0"></iframe>
+        <!--/if(answer.answer_block)-->
+
+        <!--@if(board.comment_yn)-->
+        <iframe id="comment{{id}}" name="comment{{id}}" src="comment.jsp?mid={{id}}&code={{board.code}}" width="100%" frameborder="0" scrolling="no"></iframe>
+        <!--/if(board.comment_yn)-->
+    </div>
+</div>

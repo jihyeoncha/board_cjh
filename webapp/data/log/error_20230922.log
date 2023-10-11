@@ -1,0 +1,32 @@
+[2023-09-22 17:51:10] at /board/list.jsp
+{DB.getConnection} Could not create connection to database server. Attempted reconnect 3 times. Giving up. (Could not create connection to database server. Attempted reconnect 3 times. Giving up.)at /board/list.jsp
+{DB.getConnection} Could not create connection to database server. Attempted reconnect 3 times. Giving up. (Could not create connection to database server. Attempted reconnect 3 times. Giving up.)
+[2023-09-22 17:52:40] at /board/list.jsp
+{DB.getConnection} Could not create connection to database server. Attempted reconnect 3 times. Giving up. (Could not create connection to database server. Attempted reconnect 3 times. Giving up.)at /board/list.jsp
+{DB.getConnection} Could not create connection to database server. Attempted reconnect 3 times. Giving up. (Could not create connection to database server. Attempted reconnect 3 times. Giving up.)
+[2023-09-22 17:52:40] {Template.readFile} path:c:\resin\resin-pro-4.0.66\hosts\board.com\webapp\html\layout\layout_main.html
+[2023-09-22 17:53:27] at /board/list.jsp
+{DB.getConnection} Could not create connection to database server. Attempted reconnect 3 times. Giving up. (Could not create connection to database server. Attempted reconnect 3 times. Giving up.)at /board/list.jsp
+{DB.getConnection} Could not create connection to database server. Attempted reconnect 3 times. Giving up. (Could not create connection to database server. Attempted reconnect 3 times. Giving up.)
+[2023-09-22 17:53:27] {Template.readFile} path:c:\resin\resin-pro-4.0.66\hosts\board.com\webapp\html\layout\layout_main.html
+[2023-09-22 17:53:29] at /board/list.jsp
+{DB.getConnection} Could not create connection to database server. Attempted reconnect 3 times. Giving up. (Could not create connection to database server. Attempted reconnect 3 times. Giving up.)at /board/list.jsp
+{DB.getConnection} Could not create connection to database server. Attempted reconnect 3 times. Giving up. (Could not create connection to database server. Attempted reconnect 3 times. Giving up.)
+[2023-09-22 17:53:29] {Template.readFile} path:c:\resin\resin-pro-4.0.66\hosts\board.com\webapp\html\layout\layout_main.html
+[2023-09-22 17:53:30] at /board/list.jsp
+{DB.getConnection} Could not create connection to database server. Attempted reconnect 3 times. Giving up. (Could not create connection to database server. Attempted reconnect 3 times. Giving up.)at /board/list.jsp
+{DB.getConnection} Could not create connection to database server. Attempted reconnect 3 times. Giving up. (Could not create connection to database server. Attempted reconnect 3 times. Giving up.)
+[2023-09-22 17:53:30] {Template.readFile} path:c:\resin\resin-pro-4.0.66\hosts\board.com\webapp\html\layout\layout_main.html
+[2023-09-22 17:56:52] at /board/list.jsp
+{DB.getConnection} Could not create connection to database server. Attempted reconnect 3 times. Giving up. (Could not create connection to database server. Attempted reconnect 3 times. Giving up.)at /board/list.jsp
+{DB.getConnection} Could not create connection to database server. Attempted reconnect 3 times. Giving up. (Could not create connection to database server. Attempted reconnect 3 times. Giving up.)
+[2023-09-22 17:56:52] {Template.readFile} path:c:\resin\resin-pro-4.0.66\hosts\board.com\webapp\html\layout\layout_main.html
+[2023-09-22 17:57:28] {Template.readFile} path:c:\resin\resin-pro-4.0.66\hosts\board.com\webapp\html\layout\layout_main.html
+[2023-09-22 17:57:53] {Template.readFile} path:c:\resin\resin-pro-4.0.66\hosts\board.com\webapp\html\layout\layout_main.html
+[2023-09-22 17:57:55] {Template.readFile} path:c:\resin\resin-pro-4.0.66\hosts\board.com\webapp\html\layout\layout_main.html
+[2023-09-22 17:57:56] {Template.readFile} path:c:\resin\resin-pro-4.0.66\hosts\board.com\webapp\html\layout\layout_main.html
+[2023-09-22 17:57:56] {Template.readFile} path:c:\resin\resin-pro-4.0.66\hosts\board.com\webapp\html\layout\layout_main.html
+[2023-09-22 17:57:57] {Template.readFile} path:c:\resin\resin-pro-4.0.66\hosts\board.com\webapp\html\layout\layout_main.html
+[2023-09-22 17:57:57] {Template.readFile} path:c:\resin\resin-pro-4.0.66\hosts\board.com\webapp\html\layout\layout_main.html
+[2023-09-22 17:57:57] {Template.readFile} path:c:\resin\resin-pro-4.0.66\hosts\board.com\webapp\html\layout\layout_main.html
+[2023-09-22 17:58:44] {Template.readFile} path:c:\resin\resin-pro-4.0.66\hosts\board.com\webapp\html\layout\layout_main.html

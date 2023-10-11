@@ -1,0 +1,16 @@
+SMAP
+_write__jsp.java
+JSP
+*S JSP
+*F
++ 1 write.jsp
+board_cjh/write.jsp
++ 2 init.jsp
+board_cjh/../init.jsp
+*L
+1#1:58
+3#2,36:59
+2#1:95
+5#1,7:96
+11#1,2:103
+*E

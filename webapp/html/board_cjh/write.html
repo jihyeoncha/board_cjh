@@ -1,0 +1,38 @@
+<div class="inner">
+    <div class="page_wrap pt35">
+        <!-- <script language="javascript" type="text/javascript">initEditor("Advanced");</script> -->
+        <form name="form" method="post" action="../board_cjh/submit.jsp" enctype="multipart/form-data">
+        <!-- <input type="hidden" name="temp_id" value="{{post_id}}"> -->
+        <h3 class="page_sub_tt">지식공유</h3>
+        <div class="est_insert mt15">
+            <table summary="지식공유 글을 등록할 수 있습니다.">
+                <caption>지식공유 입력창</caption>
+                <colgroup>
+                    <col style="width:129px">
+                    <col style="width:*">
+                    <col style="width:129px">
+                    <col style="width:*px">
+                </colgroup>
+                <tbody>
+                    <tr>
+                        <th scope="row">제목</th>
+                        <td colspan="3"><input type="text" name="subject" class="qna_insert_title" style="width:800px;"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">내용</th>
+                        <td colspan="3">
+                            <!-- <input name="content" class="qna_insert_con" style="width:800px; height: 300px;"> -->
+                            <textarea class="qna_insert_con" name="content" style="height:200px; width: 800px;"></textarea>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="tac mt25">
+            <a href="../index.jsp" class="btn_wh btn_tx">목록</a>
+            <button type="submit" class="btn_agree btn_tx">등록</button>
+        </div>
+        </form>
+        <!-- {{form_script}} -->
+    </div>
+</div>

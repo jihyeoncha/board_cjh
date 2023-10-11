@@ -1,0 +1,19 @@
+[2023-10-05 16:44:39] {Template.readFile} path:c:\resin\resin-pro-4.0.66\hosts\board.com\webapp\html\layout\layout_board.html
+[2023-10-05 17:32:08] at /board/read.jsp
+{Malgn.strToDate(1)} source: (source is blank or null)at /board/read.jsp
+{Malgn.strToDate(1)} source: (source is blank or null)
+[2023-10-05 17:32:08] at /board/read.jsp
+{Malgn.addDate} type:D, amount:-3, date:null (null)at /board/read.jsp
+{Malgn.addDate} type:D, amount:-3, date:null (null)
+[2023-10-05 17:32:08] at /board/read.jsp
+{Malgn.getTimeString(1)} sformat:yyyy/MM/dd HH:mm, date:null (date is null)at /board/read.jsp
+{Malgn.getTimeString(1)} sformat:yyyy/MM/dd HH:mm, date:null (date is null)
+[2023-10-05 17:32:08] at /board/read.jsp
+{Malgn.strToDate(1)} source: (source is blank or null)at /board/read.jsp
+{Malgn.strToDate(1)} source: (source is blank or null)
+[2023-10-05 17:32:08] at /board/read.jsp
+{Malgn.addDate} type:D, amount:-3, date:null (null)at /board/read.jsp
+{Malgn.addDate} type:D, amount:-3, date:null (null)
+[2023-10-05 17:32:08] at /board/read.jsp
+{Malgn.getTimeString(1)} sformat:yyyy/MM/dd HH:mm, date:null (date is null)at /board/read.jsp
+{Malgn.getTimeString(1)} sformat:yyyy/MM/dd HH:mm, date:null (date is null)

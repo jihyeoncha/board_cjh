@@ -1,0 +1,171 @@
+@charset "utf-8";
+
+/* 
+ * 작성자 : Kim Yanghyeon
+ * 최종수정일 : 2014-04-22
+ * 이메일/메신저 : jurio84@malgnsoft.com
+ */ 
+@font-face {
+  font-family: 'NanumGothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/common/font/NanumGothic-Regular.eot);
+  src: url(/common/font/NanumGothic-Regular.eot?#iefix) format('embedded-opentype'),
+       url(/common/font/NanumGothic-Regular.woff2) format('woff2'),
+       url(/common/font/NanumGothic-Regular.woff) format('woff'),
+       url(/common/font/NanumGothic-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'NanumGothic';
+  font-style: normal;
+  font-weight: 700;
+  src: url(/common/font/NanumGothic-Bold.eot);
+  src: url(/common/font/NanumGothic-Bold.eot?#iefix) format('embedded-opentype'),
+       url(/common/font/NanumGothic-Bold.woff2) format('woff2'),
+       url(/common/font/NanumGothic-Bold.woff) format('woff'),
+       url(/common/font/NanumGothic-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'NanumGothic';
+  font-style: normal;
+  font-weight: 800;
+  src: url(/common/font/NanumGothic-ExtraBold.eot);
+  src: url(/common/font/NanumGothic-ExtraBold.eot?#iefix) format('embedded-opentype'),
+       url(/common/font/NanumGothic-ExtraBold.woff2) format('woff2'),
+       url(/common/font/NanumGothic-ExtraBold.woff) format('woff'),
+       url(/common/font/NanumGothic-ExtraBold.ttf) format('truetype');
+}
+
+/* reset css */
+html,body{margin:0;padding:0;height:100%}
+body{font:13px/20px "나눔고딕",NanumGothic,Malgun Gothic, "돋움", Dotum, "굴림", Gulim, Arial, sans-serif;color:#777}
+dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,tbody,tfoot,thead,th,td,select{margin:0;padding:0}
+table{border-spacing:0;border-collapse:collapse}
+ol,ul,li{list-style:none}
+h1, h2, h3, h4, h5, h6 {font-weight:normal;font-size:100%}
+hr, legend, .hidden{position:absolute; top:0; left:0; width:0; height:0; overflow:hidden; visibility:hidden; font-size:0; line-height:0; }
+.hide{text-indent:-9999px;overflow:hidden;width:0;height:0;font-size:0;line-height:0}
+caption{visibility:hidden;overflow:hidden;width:0;height:0;font-size:0;line-height:0}
+abbr,acronym,img,fieldset{border:0 none}
+button{padding:0;margin:0;border:0;cursor:pointer;vertical-align:top;background-color:#fff;font:13px/20px "나눔고딕", NanumGothic,Malgun Gothic, "돋움", Dotum, "굴림", Gulim, Arial, sans-serif}
+label{cursor:pointer}
+em,address{font-style:normal}
+a {text-decoration:none;color:#777}
+a:link,a:visited{color:#3c3c3c;text-decoration:none}
+a:hover,a:active,a:focus{text-decoration:none} /* 현재 마우스 오버 밑줄 빼놓음 text-decoration:underline */
+table{border-spacing:0;border-collapse:collapse;width:100%;table-layout:fixed}
+.skip_nav{position:relative;}
+.skip_nav a{display:block; height:1px; width:1px; margin-bottom:-1px; overflow:hidden; font-size:0;color:transparent; color:#fff; font-weight:700; white-space:nowrap;}
+.skip_nav a:focus,.skip_nav a:active{height:auto; width:100%; padding:5px; margin-bottom:10px; position:absolute; left:0; top:0;font-size:20px; background:#2466a6;z-index:10}
+
+/* style */
+.search_form{text-align:center;padding-top:15px}
+.search_form select{vertical-align:top;padding:2px 3px 3px;width:80px}
+.search_form input[type=text] {vertical-align:top;border:1px solid #d1d1d1;padding:2px 4px 3px;width:180px;height:17px}
+
+/* button style */
+.button::-moz-focus-inner {border:0; padding:0;margin:-1px}
+button.button::-moz-focus-inner {margin:0}
+.button{width: auto;display: inline-block;cursor: pointer;line-height: 100%;border: none;border-radius: 3px;
+	background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(100, 100, 100, 0.4));
+    background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(100, 100, 100, 0.4));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(100, 100, 100, 0.4));
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(100, 100, 100, 0.4));
+    background-image: linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(100, 100, 100, 0.4));
+	background-repeat: repeat-x;transition: color 0.2s ease, background-color 0.2s ease, border 0.2s ease, opacity 0.2s ease-in-out;padding:6px 16px;font-size:13px;text-align:center;
+	font-family:"나눔고딕",NanumGothic;
+	text-shadow: -1px -1px rgba(0, 0, 0, 0.2);
+}
+.button:hover, .button:focus{text-decoration:none}
+.button.mini{padding:2px 4px;font-size:11px}
+.button.small{padding:6px 10px 5px;font-size:11px}
+.button.medium{padding:6px 10px;font-size:12px}
+.button.large{padding:8px 20px;font-size:15px;font-weight:700}
+.button,button,input[type=button],input[type=submit]{vertical-align:top}
+.button.black{background-color: #444;color: #fff;border:1px solid transparent;
+	background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(100, 100, 100, 0.1));
+    background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(100, 100, 100, 0.1));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(100, 100, 100, 0.1));
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(100, 100, 100, 0.1));
+    background-image: linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(100, 100, 100, 0.1));
+}
+.button.black:hover{background-color: #222}
+.button.white{font-weight:700;background-color: #fff;color: #333;border:1px solid #ccc;text-shadow: 1px 1px rgba(255, 255, 255, 0.2);
+	background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(100, 100, 100, 0.1));
+    background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(100, 100, 100, 0.1));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(100, 100, 100, 0.1));
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(100, 100, 100, 0.2));
+    background-image: linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(100, 100, 100, 0.2));
+}
+.button.white:hover{background-color: #eee;border:1px solid #bbb}
+.button.blue{background-color: #428bca;color: #fff;border:1px solid #428bca}
+.button.blue:hover{background-color: #317ab9}
+.button.green{background-color: #5cb85c;color: #fff;border:1px solid #5cb85c}
+.button.green:hover{background-color: #4ba74b}
+.button.sky{background-color: #5bc0de;color: #fff;border:1px solid #5bc0de}
+.button.sky:hover{background-color: #4ab0cd}
+.button.orange{background-color: #ed9c28;color: #fff;border:1px solid #ed9c28}
+.button.orange:hover{background-color: #dc8b17}
+.button.red{background-color: #d9534f;color: #fff;border:1px solid #d9534f}
+.button.red:hover{background-color: #c8423e}
+.button.gray{background-color: #a3a3a3;color: #fff;border:1px solid #939393}
+.button.gray:hover{background-color: #929292}
+.button.long{padding-left:0px;padding-right:0;width:78px}
+.button.login{padding:19px 20px;font-size:15px;font-weight:700;*padding:18px 0;*width:75px}
+
+/* 테이블 리스트  홀짝 색 */
+.type_list tbody tr:nth-child(odd) td, .type_list tbody tr:nth-child(odd) th{background-color: #f9f9f9;}
+.tb_list tbody tr:nth-child(odd) td, .tb_list tbody tr:nth-child(odd) th{background-color: #f9f9f9;}
+
+/* 테이블 리스트 오버 */
+.type_list tbody tr:hover td, .type_list tbody tr:hover th{background-color:#f5f5f5}
+.tb_list tbody tr:hover td, .tb_list tbody tr:hover th{background-color:#f5f5f5}
+
+/* 라벨 */
+.label{font-family:"돋움", Dotum, Arial, sans-serif;font-size:12px;padding:0 4px;font-weight:normal;vertical-align:1px;display:inline-block;height:16px;line-height:18px}
+.label.red{background-color:#d9534f;color:#fff}
+.label.blue{background-color:#428bca;color:#fff}
+.label.gray{background-color:#999;color:#fff}
+.label.green{background-color:#5cb85c;color:#fff}
+.label.sky{background-color:#5bc0de;color:#fff}
+.label.small{font-size:11px}
+.label.large{font-size:13px}
+
+input[type=text]{font:13px/20px "나눔고딕",NanumGothic,Malgun Gothic, "돋움", Dotum, "굴림", Gulim, Arial, sans-serif;height:17px;padding:2px 4px 3px;
+  background-color: #ffffff !important;
+  border: 1px solid #cccccc !important;
+  /*border-radius: 4px !important;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) !important;*/
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s !important;}
+input[type=password]{font:13px/20px "나눔고딕",NanumGothic,Malgun Gothic, "돋움", Dotum, "굴림", Gulim, Arial, sans-serif;height:17px;
+  background-color: #ffffff !important;
+  border: 1px solid #cccccc !important;
+  /*border-radius: 4px !important;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) !important;*/
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s !important;}
+select{font:13px/20px "나눔고딕",NanumGothic,Malgun Gothic, "돋움", Dotum, "굴림", Gulim, Arial, sans-serif;vertical-align:top;padding:2px 3px 3px;
+  background-color: #ffffff !important;
+  border: 1px solid #cccccc !important;
+  /*border-radius: 4px !important;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) !important;*/
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s !important;}
+
+
+/* table button */
+.board.btn{overflow:hidden;margin-top:10px;text-align:center}
+.board.btn .left{float:left;margin-right:4px}
+.board.btn .right{float:right;margin-left:4px}
+
+.mt10{margin-top:10px}
+.mt5{margin-top:5px}
+.mt15{margin-top:15px}
+.mt20{margin-top:20px}
+.mt30{margin-top:30px !important}
+.mb15{}
+.w555{width:555px}
+.nodata{text-align:center}
+.h50{height:50px}
+.pl20{padding-left:20px}
+.bold{font-weight:bold}
+
+.font12{font-size:12px;}
